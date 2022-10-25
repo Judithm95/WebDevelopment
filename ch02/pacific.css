@@ -1,0 +1,33 @@
+#wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%
+
+}
+body { 
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: verdana, Arial, sans-serif;
+
+}
+h1 {
+    background-color: #002171;
+    color: #FFFFFF;
+    font-family: georgia, serif;
+    line-height: (200%);
+
+}
+nav { 
+    font-weight: 200;
+    background-color: #BBDEFB;
+
+}
+h2{
+    color: #1976D2;
+    font-family: georgia, serif;
+
+}
+span.resort{
+    color: #002171;
+    font-weight: 200;
+}
