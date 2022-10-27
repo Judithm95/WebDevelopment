@@ -1,4 +1,4 @@
-body { background-color: #90C7E3;
+body { background-color: white;
     background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
     background-repeat: no-repeat; 
     color: #666666;
@@ -14,7 +14,7 @@ body { background-color: #90C7E3;
         box-shadow: 3px 3px 3px #777;
 }
 header { background-color: #002171;
-      background-image: url(sunset.jpg);
+      background-image: url(bird.png);
       background-position: right;
       background-repeat: no-repeat;
       color: #FFFFFF;
@@ -23,11 +23,12 @@ header { background-color: #002171;
 }
 h1 { text-align: center;
   padding-top: .5em;
-  text-align: center; }
+  text-align: center;
+ }
 h2 { color: #1976D2;
   font-family: Georgia, serif; 
 }
-h3 { font-family: Georgia, serif; }
+h3 { font-family: Georgia }
 nav { font-weight: bold; 
    padding-top: .5em;
    padding-right: .5em;

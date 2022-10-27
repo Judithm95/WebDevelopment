@@ -2,7 +2,7 @@
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    background-color: #FFFFFF;
+    background-color: blue;
     min-width: 960;
     max-width: 2048;
     box-shadow: 5px 10px;
@@ -10,7 +10,7 @@
 
 header{
     background-repeat: none;
-    background-image:url(pexels-pixabay-235990.jpg") ;
+
 }
 
 body { 
@@ -27,10 +27,8 @@ h1 {
     color: #FFFFFF;
     font-family: georgia, serif;
     line-height: (200%)
-    padding: (.5em);
+    padding-top: (.5em);
     
-
-
 }
 nav { 
     font-weight: 200;
@@ -46,9 +44,9 @@ span.resort{
     color: #002171;
     font-weight: 200;
 
-div.homehero {
+div.homehero{
    background-image:url("pexels-pixabay-235990.jpg");
-   background-repeat: no-repeat;
+   background-repeat:  no-repeat;
    background-size: 100%,100%;
    height:150vh;
    width:  100%;
