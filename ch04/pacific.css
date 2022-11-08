@@ -1,57 +1,58 @@
-#wrapper{
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
-    background-color: blue;
-    min-width: 960;
-    max-width: 2048;
-    box-shadow: 5px 10px;
+body { background-color: white;
+  background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+  background-repeat: no-repeat; 
+  color: #666666;
+  font-family: Verdana, Arial, sans-serif;
 }
 
-header{
-    background-repeat: none;
-
+#wrapper { background-color: #FFFFFF;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      min-width: 960px;
+      max-width: 2048px;
+      box-shadow: 3px 3px 3px #777;
 }
-
-body { 
-    background-color: #90c7e3;
-    background-image: linear-gradient(#FFFFFF,#90C7E3);
+header { background-color: #002171;
+    background-image: url(sunset.jpg);
+    background-position: right;
     background-repeat: no-repeat;
-    color: #666666;
-    font-family: verdana, Arial, sans-serif;
-
-}
-h1 {
-    background-color: #002171;
-    text-align: center;
     color: #FFFFFF;
-    font-family: georgia, serif;
-    line-height: (200%)
-    padding-top: (.5em);
-    
+    font-family: Georgia, serif;
+    height: 72px;
 }
-nav { 
-    font-weight: 200;
-    background-color: #BBDEFB;
+h1 { text-align: center;
+padding-top: .5em;
+text-align: center;
+}
+h2 { color: #1976D2;
+font-family: Georgia, serif; 
+}
+h3 { font-family: Georgia }
+nav { font-weight: bold; 
+ padding-top: .5em;
+ padding-right: .5em;
+ padding-bottom: .5em;
+ text-align: center;
+}
+nav a { text-decoration: none; }
+main { padding-left: 2em;
+  padding-right: 2em;
+  display: block; }
+dt { color: #002171;
+font-weight: bold
+}
+.resort { color: #1976D2;
+     font-size: 1.2em;
+}
+#yurthero { height: 300px;
+       background-image: url(trail.jpg);
+         background-repeat: no-repeat;
+       background-size: 100% 100%; }
 
-}
-h2{
-    color: #1976D2;
-    font-family: georgia, serif;
-
-}
-span.resort{
-    color: #002171;
-    font-weight: 200;
-
-div.homehero{
-   background-image:url("pexels-pixabay-235990.jpg");
-   background-repeat:  no-repeat;
-   background-size: 100%,100%;
-   height:150vh;
-   width:  100%;
-}
-footer {
-    padding:(.5em);
+  
+footer { font-size: .70em;
+    font-style: italic;
     text-align: center;
+    padding: 1em;
 }

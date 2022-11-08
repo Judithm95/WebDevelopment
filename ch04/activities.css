@@ -14,7 +14,7 @@ body { background-color: white;
         box-shadow: 3px 3px 3px #777;
 }
 header { background-color: #002171;
-      background-image: url(bird.png);
+      background-image: url(sunset.jpg);
       background-position: right;
       background-repeat: no-repeat;
       color: #FFFFFF;
@@ -40,24 +40,17 @@ main { padding-left: 2em;
     padding-right: 2em;
     display: block; }
 dt { color: #002171;
-  font-weight: bold;
+  font-weight: bold
 }
 .resort { color: #1976D2;
        font-size: 1.2em;
 }
-#homehero { height: 300px;
-         background-image: url(bird.png);
+#yurthero { height: 300px;
+         background-image: url(trail.jpg);
            background-repeat: no-repeat;
          background-size: 100% 100%; }
 
-#yurthero { height: 300px;
-         background-image: url(yurt.jpg);
-           background-repeat: no-repeat;
-         background-size: 100% 100%; }
-#trailhero { height: 300px;
-         background-image: url(bird.png);
-           background-repeat: no-repeat;
-         background-size: 100% 100%; }			
+		
 footer { font-size: .70em;
       font-style: italic;
       text-align: center;
