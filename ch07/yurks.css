@@ -82,9 +82,9 @@ section{padding : 0em .5em;}
            background-image : url(trail.jpg);
            background-repeat : no-repeat;}
 
-#mobile{display : inline;}
+#mobile{display : none;}
 
-#desktop{display : none;}
+#desktop{display : inline;}
 
 @media (min-width : 600px) {h1{font-size : 2em; 
                                letter-spacing : .25em}
@@ -98,7 +98,7 @@ section{padding : 0em .5em;}
                             nav li{width : 12em;
                                    border-bottom : none;}
 
-                            section{padding : 0em 2em;}
+                            section{padding : 2em 2em;}
 
                             #flow{display : flex;
                                   flex-direction : row;}
