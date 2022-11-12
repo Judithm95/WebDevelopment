@@ -5,7 +5,7 @@ body{color : #666666;
      font-family : Verdana, Arial, sans-serif;
      margin: 0;}
 
-header{color : #FFFFFF;
+header{
        background-color : #002171;
        padding : 1em;
        font-family : Georgia, serif;}
@@ -31,19 +31,30 @@ nav a:visited{color : #344873;}
 nav a:hover{color : #A52A2A;}
 
 nav ul{display : flex;
-       flex-direction : column;
        margin : 0;
        list-style-type : none;
-       padding-left: 0em;}
+       padding-left: 0;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       justify-content: space-around }
 
-nav li{padding : .5em 1em;
-       width : 100%;
-       border-bottom : 1px solid #000000;}
+nav li{padding : 1em 1em;
+       padding-top: .5em;
+       padding-bottom: .5em;
+       width : 12em;
+       border-bottom : none solid #000000;
+       ;}
 
-main{padding : 0em 1em;}
+main{padding-left: 1em;
+       padding-right: 1em;
+     padding-top: 0em;
+     padding-bottom: 0em;}
 
 h1{text-align : center;
-   font-size : 1.5em;}
+   font-size : 1.5em;
+   justify-content: space-around;
+
+}
 
 h2{color : #1976D2;
    font-family : Georgia, serif;}
